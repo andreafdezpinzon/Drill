@@ -1,7 +1,19 @@
 body{
-background-image: url("../figuras/colormau.jpg");
+
 background-color: #2a7b80;
 }
+
+/*body::before {
+  		background-image: url("figuras/colormau.jpg");
+  		content: "";
+  		opacity: 0.9;
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		right: 0;
+  		left: 0;
+  		z-index: -1;   
+		}*/
 
 
 /*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
