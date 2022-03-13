@@ -4,7 +4,7 @@ background-color: #2a7b80;
 }
 
 body::before {
-  		background-image: url("../figuras/colormau.jpg");
+  		background-image: url("figuras/colormau.jpg");
   		content: "";
   		opacity: 0.9;
   		position: absolute;
