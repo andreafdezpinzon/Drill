@@ -3,8 +3,17 @@ background-image: url("figuras/colormau.jpg");
 background-color: #2a7b80;
 }
 
-
-/*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
+body::before {
+  		background-image: url("figuras/fondo.jpg");
+  		content: "";
+  		opacity: 0.9;
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		right: 0;
+  		left: 0;
+  		z-index: -1;   
+		}
 
 .center{
 
@@ -13,7 +22,6 @@ background-color: #2a7b80;
 }
 
 
-/*Le damos formato a los encabezados H1*/
 h1, h2 {
   font-weight: bold;
   text-align: center;  
@@ -31,14 +39,12 @@ p, ul {
 }
 
 
-/*Le damos formato a los pies de imagen*/
 figcaption {
 
   text-align: center;
 }
 
 
-/*Le damos formato a las imágenes*/
 img {
   
   display: block;
