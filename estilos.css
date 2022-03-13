@@ -1,22 +1,7 @@
+body{
 
-	body {
- 		
-  		background-color: #738612;}
-
-/*body::before {
-  		background-image: url("figuras/fondo.jpg");
-  		content: "";
-  		opacity: 0.9;
-  		position: absolute;
-  		top: 0;
-  		bottom: 0;
-  		right: 0;
-  		left: 0;
-  		z-index: -1;   
-		}*/
-
-/*Colocamos una imagen de fondo al 'body' de nuestras páginas*/
-
+background-color: #738612;
+}
 
 
 /*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
@@ -29,28 +14,12 @@
 
 
 /*Le damos formato a los encabezados H1*/
-h1 {
+h1, h2 {
   font-weight: bold;
   text-align: center;  
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #ffffff;
   
-}
-
-h2 {
-
-  font-weight: bold;
-  text-align: left;  
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #ffffff	;
-
-}
-h3 {
-
-  text-align: center;  
-  font-family:verdana;
-  color:pink;
-
 }
 
 p, ul {
